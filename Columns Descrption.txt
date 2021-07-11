@@ -1,0 +1,11 @@
+ 0   PassengerId  891 non-null    int64   - DONE
+ 1   Survived     891 non-null    int64   - DONE
+ 2   Pclass       891 non-null    int64   - Need to split in dummies - ORDINAL - DONE
+ 3   Sex          891 non-null    object  - Need to split in dummies
+ 4   Age          714 non-null    float64 - Missing values - DONE
+ 5   SibSp        891 non-null    int64   - DONE - Categorical Variable
+ 6   Parch        891 non-null    int64   - DONE - Categorical Variable
+ 7   Ticket       891 non-null    object  - DONE
+ 8   Fare         891 non-null    float64 - Missing value in TEST
+ 9   Cabin        204 non-null    object  - Missing value
+ 10  Embarked     889 non-null    object  - Missing value in TRAIN - DONE
